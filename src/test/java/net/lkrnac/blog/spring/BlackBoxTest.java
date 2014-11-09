@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
 
-public class ApplicationTests {
+public class BlackBoxTest {
 	private static final String RESOURCE_URL = "http://localhost:8080/greeting";
 
 	@Test
@@ -37,5 +37,4 @@ public class ApplicationTests {
 			}
 		}
 	}
-
 }
